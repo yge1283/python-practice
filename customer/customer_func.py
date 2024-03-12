@@ -1,7 +1,8 @@
-import re ,pickle,json
+import re 
+import func
+# 함수 호출하기 
 
-f=open('data.json','r')
-custlist=json.load(f)
+custlist = func.load_data()
 page=len(custlist)-1
 
 
@@ -152,9 +153,8 @@ while True:
         # dumps -- 파일로 안되어 있는것은 
         # 파일로 바로 나감 sump
 
-        f=open('data.json','w')
-        json.dump(custlist,f,indent=2)
-        f.close()
-        break
+      func.save_data(custlist)
+      print("프로그램 종료")
+    break
 
 # 변경되는 데이터를 불러와서 쓰는것 피클, 
