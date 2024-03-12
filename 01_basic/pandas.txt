@@ -1,0 +1,16 @@
+판다스 
+
+넌파이 -- 파이썬으로 과학계산을 계산하는 기본적인 패키지 
+-- 2차원, 다차원 배열을 파이썬에서 다룰 떄 사용 
+-- 모듈을 사용하려면 import 
+
+import numpy. as np
+불러오기 
+
+import numpy as np 
+arr=np.array([1,2,3,4])
+arr10=arr*10
+
+print(arr10)
+
+
