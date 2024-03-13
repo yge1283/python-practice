@@ -1,11 +1,11 @@
 import re ,pickle,json
 
 #re 라는 모듈을 실향 
-custlist=[
-          {'name': 'etw', 'gender': 'M', 'email': 'rainbow@naver.com', 'birthyear': '1999'},
-          {'name': '지은', 'gender': 'M', 'email': 'yuioh@naver.com', 'birthyear': '1987'},
-          {'name': '홍길동', 'gender': 'F', 'email': 'oiuy@naver.com', 'birthyear': '1977'}
-          ]
+# custlist=[
+#           {'name': 'etw', 'gender': 'M', 'email': 'rainbow@naver.com', 'birthyear': '1999'},
+#           {'name': '지은', 'gender': 'M', 'email': 'yuioh@naver.com', 'birthyear': '1987'},
+#           {'name': '홍길동', 'gender': 'F', 'email': 'oiuy@naver.com', 'birthyear': '1977'}
+#           ]
 # # 손님의 리스트를 관리 
 # page=2
 # 페이지 값은 -1이다. 
